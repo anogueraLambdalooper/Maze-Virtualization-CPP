@@ -1,0 +1,5 @@
+﻿  ConFPS.cpp
+C:\Users\tonin\ConFPS\ConFPS.cpp(20,12): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+C:\Users\tonin\ConFPS\ConFPS.cpp(128,20): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+C:\Users\tonin\ConFPS\ConFPS.cpp(140,17): warning C4244: 'inicializando': conversión de 'float' a 'int'; posible pérdida de datos
+  ConFPS.vcxproj -> C:\Users\tonin\ConFPS\x64\Debug\ConFPS.exe
