@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\tonin\\ConFPS\\",
+  "WorkspaceRootPath": "C:\\Users\\tonin\\Maze-Virtualization-CPP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8D231E19-BBCE-4E4B-B249-112B6EBC3CF6}|ConFPS.vcxproj|C:\\Users\\tonin\\ConFPS\\ConFPS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{8D231E19-BBCE-4E4B-B249-112B6EBC3CF6}|ConFPS.vcxproj|C:\\Users\\tonin\\Maze-Virtualization-CPP\\ConFPS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8D231E19-BBCE-4E4B-B249-112B6EBC3CF6}|ConFPS.vcxproj|solutionrelative:ConFPS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -32,9 +32,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ConFPS.cpp",
-              "DocumentMoniker": "C:\\Users\\tonin\\ConFPS\\ConFPS.cpp",
+              "DocumentMoniker": "C:\\Users\\tonin\\Maze-Virtualization-CPP\\ConFPS.cpp",
               "RelativeDocumentMoniker": "ConFPS.cpp",
-              "ToolTip": "C:\\Users\\tonin\\ConFPS\\ConFPS.cpp",
+              "ToolTip": "C:\\Users\\tonin\\Maze-Virtualization-CPP\\ConFPS.cpp",
               "RelativeToolTip": "ConFPS.cpp",
               "ViewState": "AgIAAK4AAAAAAAAAAAAAALkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
