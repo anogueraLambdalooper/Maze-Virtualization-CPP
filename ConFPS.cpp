@@ -10,8 +10,8 @@ using namespace std;
 int nScreenWidth = 120;
 int nScreenHeight = 40;
 
-float fPlayerX = 8.0f;
-float fPlayerY = 8.0f;
+float fPlayerX = 9.0f;
+float fPlayerY = 9.0f;
 float fPlayerA = 0.0f;
 
 int nMapHeight = 16;
@@ -67,7 +67,7 @@ int main()
 			fPlayerX += sinf(fPlayerA) * 5.0f * fElapsedTime;
 			fPlayerY += cosf(fPlayerA) * 5.0f * fElapsedTime;
 
-			if (map[(int)fPlayerY * nMapWidth + (int)fPlayerX] == '#') {
+			if (map[(int)fPlayerX * nMapWidth + (int)fPlayerY] == '#') {
 				fPlayerX -= sinf(fPlayerA) * 0.5f * fElapsedTime;
 				fPlayerY -= cosf(fPlayerA) * 5.0f * fElapsedTime;
 			}
@@ -77,7 +77,7 @@ int main()
 			fPlayerX -= sinf(fPlayerA) * 5.0f * fElapsedTime;
 			fPlayerY -= cosf(fPlayerA) * 5.0f * fElapsedTime;
 
-			if (map[(int)fPlayerY * nMapWidth + (int)fPlayerX] == '#') {
+			if (map[(int)fPlayerX * nMapWidth + (int)fPlayerY] == '#' || map[(int)fPlayerY * nMapWidth + (int)fPlayerX] == '#') {
 				fPlayerX += sinf(fPlayerA) * 0.5f * fElapsedTime;
 				fPlayerY += cosf(fPlayerA) * 5.0f * fElapsedTime;
 			}
